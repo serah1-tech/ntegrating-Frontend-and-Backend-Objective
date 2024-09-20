@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #594ae2; /* Header background color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    margin-bottom: 20px; /* Space below the container */
+}
+
+.hero-text {
+    margin-top: 10px; /* Space between header and hero text */
+}
+
+.hero-text h2 {
+    font-size: 2em; /* Larger font size for emphasis */
+    margin: 10px 0; /* Spacing above and below the heading */
+}
+
+.hero-text p {
+    font-size: 1.2em; /* Slightly larger font for description */
+    margin: 10px 0; /* Space above and below the paragraph */
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto; /* Responsive image */
+}
+
+.features {
+    padding: 20px;
+    background: white;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 20px;
+}
+
+.feature-item {
+    margin: 15px 0;
+    padding: 20px;
+    border: 1px solid #ddd; /* Border around feature items */
+    border-radius: 5px; /* Rounded corners */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.feature-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.registration {
+    padding: 20px;
+    text-align: center;
+}
+
+.registration form {
+    max-width: 400px; /* Limit form width */
+    margin: 0 auto; /* Center the form */
+}
+
+.registration input {
+    width: 100%; /* Full width inputs */
+    padding: 10px;
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.registration button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4A90E2; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration button:hover {
+    background-color: #357ABD; /* Darker button color on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4A90E2; /* Footer background color */
+    color: white;
+}
